@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-gem "rspec"
 
 group :default do
   gem "hashie"
@@ -9,5 +8,6 @@ group :default do
 end 
  
 group :development do
+  gem "rspec"
 gem "pry"
 end
