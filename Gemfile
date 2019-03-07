@@ -8,6 +8,9 @@ group :default do
 end 
  
 group :development do
-gem "rspec"
 gem "pry"
 end
+
+group :test do 
+gem "rspec"
+end 
