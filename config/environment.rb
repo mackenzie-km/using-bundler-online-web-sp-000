@@ -1,4 +1,8 @@
 require 'bundler/setup'
 Bundler.require(:default, :development)
 
-require ''
+require 'Hashie'
+Sinatra
+Octokit
+Pry
+AwesomePrint
